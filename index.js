@@ -6,7 +6,7 @@ window.onbeforeunload = function () {
 }
 let arrayOfChars
 let addedParam = ""
-const initialResults = `http://gateway.marvel.com/v1/public/characters?ts=1&apikey=6a58be9ee5b4b1d1e0e8479c213292af&hash=16a4ffdb28d3a57470a1f0a7edf3411f&limit=100&nameStartsWith=`
+const initialResults = `https://gateway.marvel.com/v1/public/characters?ts=1&apikey=6a58be9ee5b4b1d1e0e8479c213292af&hash=16a4ffdb28d3a57470a1f0a7edf3411f&limit=100&nameStartsWith=`
 const captureInput = (input) => {
   addedParam = input
 }
