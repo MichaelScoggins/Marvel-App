@@ -1,0 +1,191 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+  background-image: url(./wp5005409-4k-desktop-comics-wallpapers.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vw;
+  width: 100vw;
+  margin: auto;
+  font-family: 'Frijole', cursive;
+  font-size 25px;
+  /* overflow: hidden; */
+}
+
+h3 {
+  color: white;
+  font-size: 35px;
+  background-color: black;
+  text-align: center;
+}
+.description-style {
+  font-size: 20px;
+}
+li {
+  /* color: orange; */
+  background-color: rgba(68, 7, 51, 0.42);
+}
+
+#search-fodder {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+button {
+  height: 31px;
+  color: black;
+  width: 125px;
+  font-family: 'Frijole', cursive;
+  border-radius: 10px;
+  background-color: rgba(255,109,0,0.78);
+  text-align: center;
+  border: 2px solid black;
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: rgba(55,255,0,0.88);
+  color: white;
+  
+}
+
+input {
+  width: 250px;
+  height: 31px;
+  margin-right: 4px;
+  font-family: 'Frijole', cursive;
+  box-sizing: border-box;
+  border-radius: 3px;
+  border: 2px solid black;
+}
+
+input:focus {
+  /* background-color: rgba(251,2,7,0.78); */
+  border: 3px solid orange;
+  outline: none;
+
+  input::placeholder {
+    color: blue;
+  }
+}
+
+:focus::-webkit-input-placeholder {
+  color: blue;
+}
+
+:focus::-moz-placeholder {
+  color: blue;
+}
+
+input::placeholder {
+  text-align: center;
+  color: red;
+}
+
+a {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+}
+
+.tooltiptext {
+  display: none;
+  background: black;
+  color: #fff;
+  margin-left: 28px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1000;
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  text-align: center;
+}
+
+.tooltip:hover .tooltiptext {
+  display: block;
+}
+
+.comic-text {
+  margin-bottom: 10px;
+  font-size: 22px;
+  color: white;
+}
+
+.comic-text::first-letter {
+  font-size: 30px;
+  color: orange;
+}
+
+.series-text {
+  margin-bottom: 10px;
+  font-size: 22px;
+  color: orange;
+}
+
+.series-text::first-letter {
+  font-size: 30px;
+  color: hotpink;
+}
+
+.stories-text {
+  margin-bottom: 10px;
+  font-size: 22px;
+  color: deepskyblue;
+}
+
+.stories-text::first-letter {
+  font-size: 30px;
+  color: crimson;
+}
+
+.events-text {
+  margin-bottom: 10px;
+  font-size: 22px;
+  color: springgreen;
+}
+
+.events-text::first-letter {
+  font-size: 30px;
+  color: yellow;
+}
+
+.archives-text {
+  margin-bottom: 10px;
+  font-size: 24px;
+  background-color: black;
+  color: cornflowerblue;
+}
+
+.archives-text::first-letter {
+  font-size: 32px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- why does this cdn make my button stop fetching results?? -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Frijole&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Marvel API</title>
+  </head>
+  <body>
+    <div id="search-fodder">
+      <label for="capture-input"></label>
+      <input
+        type="text"
+        id="capture-input"
+        name="capture-input"
+        placeholder="Start Typing Hero/Villain"
+        value=""
+        onkeyup="captureInput(this.value), getChars()"
+      />
+      <button
+        type="button"
+        name="search"
+        id="input-button"
+        class="btn btn-success"
+        role="button"
+        onclick="getChars()"
+      >
+        Search
+      </button>
+    </div>
+    <div id="div1">
+      <h3 id="h3">
+        Marvel Character Database <br />Please enter your favorite character
+      </h3>
+      <ul id="fetch-body"></ul>
+    </div>
+    <script defer src="./index.js"></script>
+  </body>
+</html>
